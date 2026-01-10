@@ -1,5 +1,10 @@
 const container = document.getElementById("assignmentsContainer");
 const nav = document.getElementById("sectionsNav");
+function renderMath(el) {
+  if (window.MathJax) {
+    MathJax.typesetPromise([el]);
+  }
+}
 
 // Use sessionStorage instead of localStorage so answers persist only during session
 // Clear on refresh by checking for page reload
@@ -169,14 +174,18 @@ assignments.forEach(a => {
       
       if(isTranslated) {
         // Show Arabic text
-        questionEl.textContent = q.translate;
+        questionEl.innerHTML = q.translate;
+renderMath(questionEl);
+
         questionEl.dir = "rtl";
         questionEl.classList.add("arabic");
         
         btns.forEach((b,i)=>{
           const originalOption = q.options[i];
           const translatedOption = q.translateOptions?.[i] || q.options[i];
-          b.textContent = isTranslated ? translatedOption : originalOption;
+         b.innerHTML = isTranslated ? translatedOption : originalOption;
+renderMath(b);
+
           // Check if the option contains Arabic characters
           if(/[\u0600-\u06FF]/.test(translatedOption)) {
             b.dir = "rtl";
@@ -188,7 +197,9 @@ assignments.forEach(a => {
         });
       } else {
         // Show English text
-        questionEl.textContent = q.text;
+     questionEl.innerHTML = q.text;
+renderMath(questionEl);
+
         questionEl.dir = "ltr";
         questionEl.classList.remove("arabic");
         
@@ -202,7 +213,9 @@ assignments.forEach(a => {
 
     card.querySelector(".explain").onclick = ()=>{
       const explainTextEl = document.getElementById("explainText");
-      explainTextEl.textContent = q.explain;
+     explainTextEl.innerHTML = q.explain;
+renderMath(explainTextEl);
+
       // Check if explanation contains Arabic characters
       if(/[\u0600-\u06FF]/.test(q.explain)) {
         explainTextEl.dir = "rtl";
@@ -215,6 +228,8 @@ assignments.forEach(a => {
     };
 
     cards.appendChild(card);
+    renderMath(card);
+
   });
 
   container.appendChild(section);
