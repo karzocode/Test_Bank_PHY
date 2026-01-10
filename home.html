@@ -53,11 +53,20 @@
   </div>
   
   <div class="header-buttons">
+    
+   <a href="https://wa.me/201208568067" target="_blank">
+  <button class="btn-review">Contact Me Via WhatsApp</button>
+</a>
+<script>
+document.getElementById("btn-review").addEventListener("click", function() {
+    // الرابط بتاعك على واتس
+    window.open("https://wa.me/01208568067", "_blank");
+});
+</script>
+
     <button class="theme-toggle" id="themeToggle" title="Toggle Theme">
       <span class="theme-icon">🌙</span>
     </button>
-    <button class="btn-contact">Contact Me</button>
-    <button class="btn-review">Review</button>
   </div>
 </header>
 
