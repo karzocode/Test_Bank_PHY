@@ -248,18 +248,27 @@ document.getElementById("explainModal").onclick = (e)=>{
 };
 
 // Reset/Review button functionality - Clear all answers
-document.querySelector(".btn-review").onclick = ()=>{
-  if(confirm("Are you sure you want to clear all answers? This will reset all questions.")){
-    // Clear all sessionStorage items related to answers
-    assignments.forEach(a => {
-      a.questions.forEach(q => {
-        sessionStorage.removeItem(`a${a.id}q${q.id}`);
-      });
+document.querySelector(".btn-review").onclick = ()=> {
+  assignments.forEach(a => {
+    a.questions.forEach(q => {
+      sessionStorage.removeItem(`a${a.id}q${q.id}`);
     });
-    // Reload page to reset everything
-    location.reload();
-  }
+  });
+
+  document.querySelectorAll(".option-btn").forEach(btn => {
+    btn.disabled = false;
+    btn.classList.remove("correct", "wrong", "show-correct");
+  });
+
+  document.querySelectorAll(".card").forEach(card => {
+    card.classList.remove("answered", "correct-answer");
+  });
+
+  document.querySelectorAll(".progress-bar").forEach(bar => {
+    bar.style.width = "0%";
+  });
 };
+
 
 // Theme Toggle Functionality
 const themeToggle = document.getElementById("themeToggle");
