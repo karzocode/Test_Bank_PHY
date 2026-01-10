@@ -4,6 +4,10 @@
   box-sizing: border-box;
   font-family: Arial, sans-serif;
 }
+/* كل النصوص الإنجليزية */
+body, body *:not([dir="rtl"]) {
+  font-family: 'Exo 2', Arial, sans-serif;
+}
 
 /* Arabic Font Support */
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&family=Noto+Sans+Arabic:wght@400;600;700&display=swap');
