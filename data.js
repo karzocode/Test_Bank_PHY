@@ -945,7 +945,7 @@ questions: [
     "text": "A 6.0 $\\Omega$ resistor and a 3.0 $\\Omega$ resistor are connected in series to a 1.5 V battery of negligible internal resistance. What is the current in the 3.0 $\\Omega$ resistor?",
     "image": null,
     "options": ["0.17 A", "0.75 A", "0.25 A", "0.50 A", "2.0 A"],
-    "correct": 3,
+    "correct": 0,
     "translate": "مقاومة 6.0 $\\Omega$ ومقاومة 3.0 $\\Omega$ موصلتان على التوالي ببطارية 1.5 V مقاومتها الداخلية مهملة. ما هو التيار في المقاومة 3.0 $\\Omega$؟",
     "explain": "$R_{\\text{total}} = 6.0 + 3.0 = 9.0 \\ \\Omega$، $I = \\frac{V}{R} = \\frac{1.5}{9.0} = 0.167$ A ≈ 0.17 A"
   },
@@ -1285,6 +1285,7 @@ questions: [
 ]
 }
 ];
+
 
 
 
