@@ -918,9 +918,9 @@ questions: [
     "text": "A 12.0 V battery is connected across a 4.00-$\\Omega$ resistor. If the current through the resistor is 2.80 A, what is the internal resistance of the battery?",
     "image": null,
     "options": ["0.200 $\\Omega$", "0.800 $\\Omega$", "0.286 $\\Omega$", "3.71 $\\Omega$", "4.29 $\\Omega$"],
-    "correct": 1,
+    "correct": 2,
     "translate": "بطارية 12.0 V موصلة عبر مقاومة 4.00 $\\Omega$. إذا كان التيار عبر المقاومة 2.80 A، فما هي المقاومة الداخلية للبطارية؟",
-    "explain": "$V = I(R + r) \\Rightarrow 12.0 = 2.80(4.00 + r) \\Rightarrow r = 0.800 \\ \\Omega$"
+    "explain": "$V = I(R + r) \\Rightarrow 12.0 = 2.80(4.00 + r) \\Rightarrow r = 0.285 \\ \\Omega$"
   },
   {
     "id": 7,
@@ -1285,6 +1285,7 @@ questions: [
 ]
 }
 ];
+
 
 
 
