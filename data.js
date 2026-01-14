@@ -909,9 +909,9 @@ questions: [
     "text": "Aluminum has a resistivity of $2.65 \\times 10^{-8} \\ \\Omega \\cdot \\text{m}$. What is the resistance of 15 m of aluminum wire with cross-sectional area 1.0 mm$^2$?",
     "image": null,
     "options": ["0.13 $\\Omega$", "1.6 $\\Omega$", "56 $\\Omega$", "$1.3 \\times 10^2 \\ \\Omega$", "0.40 $\\Omega$"],
-    "correct": 0,
+    "correct": 4,
     "translate": "الألومنيوم له مقاومية $2.65 \\times 10^{-8} \\ \\Omega \\cdot \\text{m}$. ما هي مقاومة سلك ألومنيوم طوله 15 م ومساحة مقطعه 1.0 مم$^2$؟",
-    "explain": "$R = \\rho \\frac{L}{A} = (2.65 \\times 10^{-8}) \\times \\frac{15}{1.0 \\times 10^{-6}} = 0.13 \\ \\Omega$"
+    "explain": "$R = \\rho \\frac{L}{A} = (2.65 \\times 10^{-8}) \\times \\frac{15}{1.0 \\times 10^{-6}} = 0.39 \\ \\Omega$"
   },
   {
     "id": 6,
@@ -1285,5 +1285,6 @@ questions: [
 ]
 }
 ];
+
 
 
