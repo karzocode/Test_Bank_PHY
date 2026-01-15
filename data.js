@@ -682,9 +682,9 @@ questions: [
     "text": "Three point charges, $q_1 = 2.0 \\ \\mu\\text{C}$, $q_2 = 2.0 \\ \\mu\\text{C}$, and $q_3 = -1.0 \\ \\mu\\text{C}$, are located at the vertices of an equilateral triangle of side length 30 cm. What is the potential energy of this arrangement?",
     "image": null,
     "options": ["0.24 J", "0.12 J", "$-0.24$ J", "$-0.12$ J", "0"],
-    "correct": 3,
+    "correct": 4,
     "translate": "ثلاث شحنات نقطية، $q_1 = 2.0 \\ \\mu\\text{C}$, $q_2 = 2.0 \\ \\mu\\text{C}$, و $q_3 = -1.0 \\ \\mu\\text{C}$، موضوعة عند رؤوس مثلث متساوي الأضلاع طول ضلعه 30 سم. ما هي طاقة الوضع لهذا الترتيب؟",
-    "explain": "$U = k\\left(\\frac{q_1 q_2 + q_2 q_3 + q_3 q_1}{r}\\right) = 9\\times10^9\\times\\frac{(4 + (-2) + (-2))\\times10^{-12}}{0.3} = -0.12 \\ \\text{J}$"
+    "explain": "$U = k\\left(\\frac{q_1 q_2 + q_2 q_3 + q_3 q_1}{r}\\right) = 9\\times10^9\\times\\frac{(4 + (-2) + (-2))\\times10^{-12}}{0.3} = 0 \\ \\text{J}$"
   },
   {
     "id": 6,
@@ -1285,6 +1285,7 @@ questions: [
 ]
 }
 ];
+
 
 
 
