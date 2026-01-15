@@ -778,7 +778,7 @@ questions: [
     "text": "A parallel plate capacitor has a paper dielectric having dielectric strength 8.00 kV/mm and dielectric constant 3.00. The plate area is 3000 cm$^2$ and the plate separation is 0.500 mm. If 10.0 V are applied to this capacitor, what is the charge on the capacitor?",
     "image": null,
     "options": ["50.0 µC", "42.0 nC", "159 nC", "16.0 nC", "42.0 µC"],
-    "correct": 1,
+    "correct": 2,
     "translate": "مكثف ذو صفيحتين متوازيتين به عازل ورقي قوة عزل 8.00 كيلوفولت/مم وثابت عزل 3.00. مساحة الصفيحة 3000 سم$^2$ والتباعد بين الصفيحتين 0.500 مم. إذا تم تطبيق 10.0 V على هذا المكثف، فما هي الشحنة على المكثف؟",
     "explain": "$C = \\kappa \\frac{\\epsilon_0 A}{d} = 3 \\times \\frac{(8.85\\times10^{-12})(0.3)}{0.5\\times10^{-3}} = 1.59\\times10^{-8} \\ \\text{F}$، $Q = CV = (1.59\\times10^{-8})(10.0) = 1.59\\times10^{-7} \\ \\text{C} = 159 \\ \\text{nC}$"
   },
@@ -1285,6 +1285,7 @@ questions: [
 ]
 }
 ];
+
 
 
 
