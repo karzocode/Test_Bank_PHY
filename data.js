@@ -808,7 +808,7 @@ questions: [
       "It halves.",
       "It quarters."
     ],
-    "correct": 0,
+    "correct": 1,
     "translate": "إذا تضاعفت مساحة الصفيحة والتباعد بين الصفيحتين وثابت العزل جميعًا لمكثف ذي صفيحتين متوازيتين، ماذا يحدث للسعة؟",
     "explain": "$C = \\kappa \\frac{\\epsilon_0 A}{d}$، $\\kappa' = 2\\kappa$، $A' = 2A$، $d' = 2d$، $C' = (2\\kappa) \\frac{\\epsilon_0 (2A)}{2d} = 2\\kappa \\frac{\\epsilon_0 A}{d} = 2C$"
   },
@@ -1285,6 +1285,7 @@ questions: [
 ]
 }
 ];
+
 
 
 
