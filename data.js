@@ -1134,9 +1134,9 @@ questions: [
     "text": "The voltage supplied to an ac circuit is given by $v(t) = (120 \\ \\text{V}) \\sin (377t)$. What is the voltage at $t = 3.00 \\times 10^{-3} \\ \\text{s}$?",
     "image": null,
     "options": ["0.00 V", "2.37 V", "119 V", "109 V", "63.0 V"],
-    "correct": 3,
+    "correct": 1,
     "translate": "الجهد المزود لدائرة تيار متردد يعطى بـ $v(t) = (120 \\ \\text{V}) \\sin (377t)$. ما هو الجهد عند $t = 3.00 \\times 10^{-3} \\ \\text{s}$؟",
-    "explain": "$v = 120 \\sin(377 \\times 0.00300) = 120 \\sin(1.131) = 120 \\times 0.904 = 108.5 \\approx 109$ V"
+    "explain": "$v = 120 \\sin(377 \\times 0.00300) = 120 \\sin(1.131) = 2.37 $ V"
   },
   {
     "id": 27,
@@ -1285,6 +1285,7 @@ questions: [
 ]
 }
 ];
+
 
 
 
