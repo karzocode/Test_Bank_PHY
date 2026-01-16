@@ -1107,7 +1107,7 @@ questions: [
     "text": "A 33 mH inductor has a current going through it that is increasing at a rate of 2.3 A/s. What is the magnitude of the induced emf in this coil?",
     "image": null,
     "options": ["2.5 V", "95 mV", "33 mV", "13 mV", "76 mV"],
-    "correct": 1,
+    "correct": 4,
     "translate": "ملف حثي 33 mH يمر به تيار يتزايد بمعدل 2.3 A/s. ما مقدار القوة الدافعة الكهربائية المستحثة في هذا الملف؟",
     "explain": "$\\varepsilon = L \\frac{dI}{dt} = (33 \\times 10^{-3})(2.3) = 0.076 \\ \\text{V} = 76$ mV"
   },
@@ -1285,6 +1285,7 @@ questions: [
 ]
 }
 ];
+
 
 
 
