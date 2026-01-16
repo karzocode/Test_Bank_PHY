@@ -1003,9 +1003,9 @@ questions: [
     "text": "An electron is moving at $2.5 \\times 10^{6} \\ \\text{m/s}$ perpendicular to a uniform 3.5 mT magnetic field. What is the radius of its path?",
     "image": null,
     "options": ["3.9 cm", "2.0 mm", "5.1 cm", "4.1 mm", "1.6 cm"],
-    "correct": 4,
+    "correct": 3,
     "translate": "إلكترون يتحرك بسرعة $2.5 \\times 10^{6} \\ \\text{m/s}$ عموديًا على مجال مغناطيسي منتظم 3.5 mT. ما نصف قطر مساره؟",
-    "explain": "$r = \\frac{mv}{qB} = \\frac{(9.11 \\times 10^{-31})(2.5 \\times 10^{6})}{(1.6 \\times 10^{-19})(3.5 \\times 10^{-3})} = 0.016 \\ \\text{m} = 1.6 \\ \\text{cm}$"
+    "explain": "$r = \\frac{mv}{qB} = \\frac{(9.11 \\times 10^{-31})(2.5 \\times 10^{6})}{(1.6 \\times 10^{-19})(3.5 \\times 10^{-3})} = 4.1 \\ \\text{mm}$"
   },
   {
     "id": 15,
@@ -1285,6 +1285,7 @@ questions: [
 ]
 }
 ];
+
 
 
 
