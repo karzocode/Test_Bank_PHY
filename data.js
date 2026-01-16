@@ -1027,9 +1027,9 @@ questions: [
       "$3.8 \\times 10^{-13}$ N",
       "$2.5 \\times 10^{-13}$ N"
     ],
-    "correct": 0,
+    "correct": 4,
     "translate": "إلكترون يتحرك بسرعة $3.0 \\times 10^{6} \\ \\text{m/s}$ بزاوية 40° بالنسبة لمجال مغناطيسي 0.80 T. ما مقدار القوة على الإلكترون؟",
-    "explain": "$F = qvB\\sin\\theta = (1.6 \\times 10^{-19})(3.0 \\times 10^{6})(0.80)\\sin 40^{\\circ} = 2.9 \\times 10^{-13}$ N"
+    "explain": "$F = qvB\\sin\\theta = (1.6 \\times 10^{-19})(3.0 \\times 10^{6})(0.80)\\sin 40^{\\circ} = 2.5 \\times 10^{-13}$ N"
   },
   {
     "id": 17,
@@ -1285,6 +1285,7 @@ questions: [
 ]
 }
 ];
+
 
 
 
