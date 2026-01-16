@@ -994,9 +994,9 @@ questions: [
       "$1.9 \\times 10^{-3}$ T",
       "$5.2 \\times 10^{-4}$ T"
     ],
-    "correct": 2,
+    "correct": 4,
     "translate": "بروتون يتحرك عموديًا على مجال مغناطيسي بسرعة $3.0 \\times 10^6 \\ \\text{m/s}$ ويتعرض لقوة مغناطيسية مقدارها $2.5 \\times 10^{-16} \\ \\text{N}$. ما مقدار المجال المغناطيسي؟",
-    "explain": "$F = qvB \\Rightarrow B = \\frac{F}{qv} = \\frac{2.5 \\times 10^{-16}}{(1.6 \\times 10^{-19})(3.0 \\times 10^{6})} = 0.52$ T"
+    "explain": "$F = qvB \\Rightarrow B = \\frac{F}{qv} = \\frac{2.5 \\times 10^{-16}}{(1.6 \\times 10^{-19})(3.0 \\times 10^{6})} =5.2 \\times 10^{-4}$ T"
   },
   {
     "id": 14,
@@ -1285,6 +1285,7 @@ questions: [
 ]
 }
 ];
+
 
 
 
